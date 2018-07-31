@@ -267,6 +267,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	exports.__esModule = true;
 	exports["default"] = Pusher;
 	function checkAppKey(key) {
+      console.log('checkAppKey: ' + key);
 	    if (key === null || key === undefined) {
 	        throw "You must pass your app key when you instantiate Pusher.";
 	    }
